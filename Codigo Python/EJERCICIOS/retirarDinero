@@ -1,0 +1,30 @@
+# Las opciones son:
+
+# [1] Ingresar dinero
+# [2] Retirar dinero
+# [3] Consulta de saldo
+# [0] salir
+
+# El menu debe ser dinamico, y realizar lo pedido en cada opcion.
+# El saldo inicial es de 2500.
+# Si por ejemplo 
+# ingresa 300
+# ingresa 400
+# retira 500
+# y vemos el saldo sera de: 2700.
+
+
+from ast import While
+
+
+saldoInicial = 2500
+print ('''
+[1] Ingresar dinero
+[2] Retirar dinero
+[3] Consulta de saldo
+[0] salir
+''')
+
+opcionUsuario = int(input("Ingrese opción:"))
+
+While
